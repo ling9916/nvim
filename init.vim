@@ -25,9 +25,7 @@ set fo+=Mm	"chinese change line
 set number
 set relativenumber
 
-
-
-
+set scrolloff=5
 
 
 
@@ -49,3 +47,10 @@ Plug 'mhinz/vim-startify'
 
 
 call plug#end()
+
+
+
+
+" ==================== Markdown Settings ====================
+" Snippets
+source $HOME/.config/nvim/md-snippets.vim
