@@ -33,8 +33,9 @@ set scrolloff=5
 " ==========
 let mapleader=","
 inoremap jk <ESC>
-nnoremap <leader>e :vs $MYVIMRC<CR>
-nnoremap <leader>s :source $MYVIMRC<CR>:q<CR>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 
 
 
